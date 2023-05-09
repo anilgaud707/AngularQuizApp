@@ -1,0 +1,27 @@
+<div class="container bg-light py-5">
+    <h3 class="display-5 fw-bold"> Welcome to MyQuiz Angular App</h3>
+    <p class="col-md-8 fs-4">This is a demo Angular Quiz Project</p>
+    <h4>SimpliLearn Java FSD Phase Project:</h4>
+    <ol>
+        <li><h6>Project Name</h6>Online Test Application</li>
+        <li><h6>Phase</h6> Develop a Web Application using frontend stack</li>
+        <li><h6>Description:</h6>The online Test Application system creates an application that enables users to provide online tests, review them, and display the results.</li>
+    </ol>
+
+    <h4>Developer Details:</h4>
+    <ol>
+        <li>Name: Anil Gaud</li>
+        <li>Email: agaud@teksystems.com</li>
+    </ol>
+    <a href="www.linkedin.com/in/anil-gaud-32707520a">LinkedIn Connect</a>
+    <p>_________________________________________________</p>
+<h5>Enter Details to start Test</h5>
+<div class="name col-md-4 my-3">
+    <label for="">Enter Participant Name :</label>
+    <input #name type="text" class="form-control">
+    <label for="">Enter Email :</label>
+    <input type="email" class="form-control">
+</div>
+<button class="btn btn-primary btn-lg" routerLink="/questions" (click)="startQuiz()">Start Test</button>
+<h1 style="font-family: cursive; text-align: center;">All the best !!</h1>
+</div>
